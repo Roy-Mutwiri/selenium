@@ -1,9 +1,7 @@
 
 
 '''
-
 FLASH SALES
-
 '''
 import os
 import time
