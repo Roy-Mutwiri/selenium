@@ -1,3 +1,10 @@
+
+
+'''
+
+FLASH SALES
+
+'''
 import os
 import time
 
@@ -10,14 +17,12 @@ driver = webdriver.Chrome()
 
 driver.get('https://www.jumia.co.ke/')
 
+CONT = input("Press 1 To Proceed And 2 To End...\n")
 
+if CONT == "2":
+    driver.quit()
 
-my_choice = input("Which Category Do You Want Us To Explore Today??\n1)Supermarket\n2)Health & Beauty\n3)Appliances\n4)Phones & Tablets\n5)Computing\n6)TVs & Audio\n7)Fashion\n8)Gaming\n9)Baby Products\n10)Sporting Goods\n11)Others\n\n\nWhat's Your Choice??\n")
+else:
+    print("Nice")
 
-if my_choice == "1":
-    my_element = driver.find_element(By.CSS_SELECTOR, 'a[href="https://www.jumia.co.ke/groceries/"]')
-
-    my_element.click()
-
-
-time.sleep(105)
+time.sleep(10)
