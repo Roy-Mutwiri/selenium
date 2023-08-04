@@ -16,6 +16,7 @@ from selenium.webdriver.common.by import By
 os.environ['PATH'] += (r"D:\\Documents\\Code\\Python\\Selenium\\chrome-win64")
 
 driver = webdriver.Chrome()
+driver.maximize_window()
 
 driver.get('https://www.jumia.co.ke/')
 
@@ -25,6 +26,12 @@ if CONT == "2":
     driver.quit()
 
 else:
+    driver.get('https://www.jumia.co.ke/flash-sales/')
+
+print("hello world")
 
 
-time.sleep(10)
+
+time.sleep(1000000)
+
+
