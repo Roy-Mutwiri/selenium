@@ -11,6 +11,8 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+
+
 os.environ['PATH'] += (r"D:\\Documents\\Code\\Python\\Selenium\\chrome-win64")
 
 driver = webdriver.Chrome()
@@ -23,6 +25,6 @@ if CONT == "2":
     driver.quit()
 
 else:
-    print("Nice")
+
 
 time.sleep(10)
