@@ -25,8 +25,6 @@ else:
 
 print("hello world")
 
-
-
 time.sleep(1000000)
 
 
