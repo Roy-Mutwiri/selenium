@@ -23,7 +23,6 @@ if CONT == "2":
 else:
     driver.get('https://www.jumia.co.ke/flash-sales/')
 
-print("hello world")
 
 time.sleep(10000)
 
